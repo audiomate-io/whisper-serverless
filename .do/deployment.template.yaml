@@ -5,9 +5,9 @@ functions:
 - github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-functions-python-sendgrid-email
-  name: emails-api
+    repo: audiomate-io/whisper-serverless
+  name: transcribe-api
   routes:
   - path: /
   source_dir: /
-name: emails
+name: transcribe
