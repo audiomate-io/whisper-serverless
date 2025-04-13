@@ -1,7 +1,5 @@
-environment:
-  API_KEY: ${API_KEY}
 packages:
-  - name: sample
+  - name: whisper
     actions:
-      - name: emails
-        runtime: 'python:default'
+      - name: transcribe
+        runtime: 'python:3.11'
