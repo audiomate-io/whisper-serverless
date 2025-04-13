@@ -6,8 +6,8 @@ functions:
     branch: main
     deploy_on_push: true
     repo: audiomate-io/whisper-serverless
-  name: transcribe-api
+  name: emails-api
   routes:
   - path: /
   source_dir: /
-name: transcribe
+name: emails
